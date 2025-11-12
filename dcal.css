@@ -84,6 +84,7 @@ body {
   padding: 10px;
   font-style: italic;
   border-radius: 10px;
+  border: none;
 
 }
 .func{
@@ -103,4 +104,5 @@ body {
 .hidden {
   display: none;
 }
+
 
