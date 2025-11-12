@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Dual Calculator</title>
+  <link rel="stylesheet" href="dcal.css" />
+</head>
+<body>
+  <div class="calculator">
+    <div class="header">
+      <h2>Calculator</h2>
+    </div>
+
+    <input type="text" id="display" disabled />
+
+        <div id="scientific" class="keypad hidden">
+      <button class="btn func">sin</button>
+      <button class="btn func">cos</button>
+      <button class="btn func">tan</button>
+      <button class="btn func">log</button>
+      <button class="btn func">√</button>
+      <button class="btn func">x²</button>
+      <button class="btn func">π</button>
+      <button class="btn func">e</button>
+    </div>
+
+    <div id="basic" class="keypad">
+      <button class="btn">7</button>
+      <button class="btn">8</button>
+      <button class="btn">9</button>
+      <button class="btn operator">/</button>
+
+      <button class="btn">4</button>
+      <button class="btn">5</button>
+      <button class="btn">6</button>
+      <button class="btn operator">*</button>
+
+      <button class="btn">1</button>
+      <button class="btn">2</button>
+      <button class="btn">3</button>
+      <button class="btn operator">-</button>
+
+      <button class="btn">0</button>
+      <button class="btn">.</button>
+      <button class="btn" id="clear">C</button>
+      <button class="btn operator">+</button>
+
+      
+      <button class="btn equal" id="equals">=</button>
+      <button id="toggleMode" class="toggbtn">Scientific</button>
+      
+    </div>
+
+
+  </div>
+
+  <script src="dcal.js"></script>
+</body>
+</html>
